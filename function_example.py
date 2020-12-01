@@ -9,4 +9,4 @@ def f(x):
 
 if __name__ == "__main__":
     for x in [0, 1, math.sqrt(2), math.sqrt(2)-1]:
-        print(f(x))
+        print(f'f({x:.3f}) = {f(x):.3f}')
