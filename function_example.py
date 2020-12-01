@@ -8,7 +8,5 @@ def f(x):
 
 
 if __name__ == "__main__":
-    print(f(0))
-    print(f(1))
-    print(f(math.sqrt(2)))
-    print(f(math.sqrt(2)-1))
+    for x in [0, 1, math.sqrt(2), math.sqrt(2)-1]:
+        print(f(x))
